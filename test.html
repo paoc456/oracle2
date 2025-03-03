@@ -4,42 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>are you colonised?</title>
+    <title>2 INPUT 1 OUTPUT TEMPLATE</title>
     <link rel="stylesheet" href="main.css">
     <style>
-        /* STYLE FOR THE IMAGE */
-        #displayedImage {
-            display: flex;
-            margin-top: 120px;
-            height: 800px;
-            width: auto;
-            /* This line is mandatory */
-        }
-
         /* STYLE FOR THE INPUT FIELD */
-        #charInput1 {
-            margin: 0 auto;
-            display: block;
-            position: relative;
-            padding: 1rem;
-            border-radius: 30px;
-        }
+        #charInput1 {}
 
-        #charInput2 {
-            margin: 0 auto;
-            display: block;
-            position: relative;
-            padding: 1rem;
-            border-radius: 30px;
-        }
+        #charInput2 {}
 
         /* STYLE FOR THE SUBMIT BUTTON */
-        #submitButton {
-            margin: 0 auto;
-            display: block;
-            position: relative;
-            padding: 1rem;
-            border-radius: 30px;
+        #submitButton {}
+
+        /* STYLE FOR THE IMAGE */
+        #displayedImage {
+            display: none;
+            /* This line is mandatory */
         }
     </style>
 </head>
@@ -52,10 +31,10 @@
     <input type="text" id="charInput2" maxlength="1">
 
     <!-- BUTTON TO DISPLAY IMAGE -->
-    <button onclick="displayImage()" class="generate" id="submitButton">Show Image</button>
+    <button onclick="displayImage()" id="submitButton">Show Image</button>
 
     <!-- IMAGE TO DISPLAY -->
-    <img id="displayedImage" src="">
+    <img id="displayedImage" src="" alt="Displayed Image">
 
 
     <!-- Image Display Script Below -->
@@ -70,7 +49,7 @@
 
 
             // aberdeen hk
-            if (input1_letter === "A") {
+            if (input1_letter === "A" && input2_letter !== "Q", "F") {
                 imgElement.src = "images/aberdeen_hk.png"
                 imgElement.style.display = "block";
             }
@@ -93,7 +72,7 @@
 
 
             //berwick hk
-            if (input1_letter === "B") {
+            if (input1_letter === "B" && input2_letter !== "A") {
                 imgElement.src = "images/berwick_hk.png"
                 imgElement.style.display = "block";
             }
@@ -108,7 +87,7 @@
 
 
             //chatham hk
-            if (input1_letter === "C") {
+            if (input1_letter === "C" && input2_letter !== "A", "B") {
                 imgElement.src = "images/chatham_hk.png"
                 imgElement.style.display = "block";
             }
@@ -129,7 +108,7 @@
 
 
             //dundas hk
-            if (input1_letter === "D") {
+            if (input1_letter === "D" && input2_letter !== "D", "E", "R") {
                 imgElement.src = "images/dundas_hk.png"
                 imgElement.style.display = "block";
             }
@@ -154,7 +133,7 @@
 
 
             //elgin hk
-            if (input1_letter === "E") {
+            if (input1_letter === "E" && input2_letter !== "C", "D", "H") {
                 imgElement.src = "images/elgin_hk.png"
                 imgElement.style.display = "block";
             }
@@ -178,7 +157,7 @@
 
 
             //forbes hk
-            if (input1_letter === "F") {
+            if (input1_letter === "F" && input2_letter !== "A", "D") {
                 imgElement.src = "images/forbes_hk.png"
                 imgElement.style.display = "block";
             }
@@ -198,7 +177,7 @@
 
 
             //gloucester hk
-            if (input1_letter === "G") {
+            if (input1_letter === "G" && input2_letter !== "A", "B", "L") {
                 imgElement.src = "images/gloucester_hk.png"
                 imgElement.style.display = "block";
             }
@@ -224,7 +203,7 @@
 
 
             //hollywood hk
-            if (input1_letter === "H") {
+            if (input1_letter === "H" && input2_letter !== "A") {
                 imgElement.src = "images/hollywood_hk.png"
                 imgElement.style.display = "block";
             }
@@ -239,7 +218,7 @@
 
 
             //irving hk
-            if (input1_letter === "I") {
+            if (input1_letter === "I" && input2_letter !== "A", "B") {
                 imgElement.src = "images/irving_hk.png"
                 imgElement.style.display = "block";
             }
@@ -258,7 +237,7 @@
 
 
             //jervois hk
-            if (input1_letter === "J") {
+            if (input1_letter === "J" && input2_letter !== "C", "F", "N") {
                 imgElement.src = "images/jervois_hk.png"
                 imgElement.style.display = "block";
             }
@@ -282,7 +261,7 @@
 
 
             //kings hk
-            if (input1_letter === "K") {
+            if (input1_letter === "K" && input2_letter !== "A", "B") {
                 imgElement.src = "images/kings_hk.png"
                 imgElement.style.display = "block";
             }
@@ -302,7 +281,7 @@
 
 
             //lambeth hk
-            if (input1_letter === "L") {
+            if (input1_letter === "L" && input2_letter !== "A") {
                 imgElement.src = "images/lambeth_hk.png"
                 imgElement.style.display = "block";
             }
@@ -317,7 +296,7 @@
 
 
             //morrison hk
-            if (input1_letter === "M") {
+            if (input1_letter === "M" && input2_letter !== "H") {
                 imgElement.src = "images/morrison_hk.png"
                 imgElement.style.display = "block";
             }
@@ -331,7 +310,7 @@
 
 
             //nathan hk
-            if (input1_letter === "N") {
+            if (input1_letter === "N" && input2_letter !== "P") {
                 imgElement.src = "images/nathan_hk.png"
                 imgElement.style.display = "block";
             }
@@ -345,7 +324,7 @@
 
 
             //ormsby hk
-            if (input1_letter === "O") {
+            if (input1_letter === "O" && input2_letter !== "A") {
                 imgElement.src = "images/ormsby_hk.png"
                 imgElement.style.display = "block";
             }
@@ -359,7 +338,7 @@
 
 
             //pedder hk
-            if (input1_letter === "P") {
+            if (input1_letter === "P" && input2_letter !== "O") {
                 imgElement.src = "images/pedder_hk.png"
                 imgElement.style.display = "block";
             }
@@ -373,7 +352,7 @@
 
 
             //queen hk
-            if (input1_letter === "Q") {
+            if (input1_letter === "Q" && input2_letter !== "A", "E", "F") {
                 imgElement.src = "images/queen_hk.png"
                 imgElement.style.display = "block";
             }
@@ -399,7 +378,7 @@
 
 
             //russell hk
-            if (input1_letter === "R") {
+            if (input1_letter === "R" && input2_letter !== "D") {
                 imgElement.src = "images/russell_hk.png"
                 imgElement.style.display = "block";
             }
@@ -415,7 +394,7 @@
 
 
             //stanley hk
-            if (input1_letter === "S") {
+            if (input1_letter === "S" && input2_letter !== "B", "C", "K") {
                 imgElement.src = "images/stanley_hk.png"
                 imgElement.style.display = "block";
             }
@@ -440,7 +419,7 @@
 
 
             //temple hk
-            if (input1_letter === "T") {
+            if (input1_letter === "T" && input2_letter !== "C", "I", "S") {
                 imgElement.src = "images/temple_hk.png"
                 imgElement.style.display = "block";
             }
@@ -463,7 +442,7 @@
 
 
             //upper lascar hk
-            if (input1_letter === "U") {
+            if (input1_letter === "U" && input2_letter !== "A") {
                 imgElement.src = "images/upperlascar_hk.png"
                 imgElement.style.display = "block";
             }
@@ -477,7 +456,7 @@
 
 
             //victoria hk
-            if (input1_letter === "V") {
+            if (input1_letter === "V" && input2_letter !== "E", "G", "M") {
                 imgElement.src = "images/victoria_hk.png"
                 imgElement.style.display = "block";
             }
@@ -500,7 +479,7 @@
 
 
             //wellington hk
-            if (input1_letter === "W") {
+            if (input1_letter === "W" && input2_letter !== "E", "J") {
                 imgElement.src = "images/wellington_hk.png"
                 imgElement.style.display = "block";
             }
@@ -518,21 +497,21 @@
 
 
             //xavier sg
-            if (input1_letter === "X") {
+            if (input1_letter === "X" && input2_letter !== "X") {
                 imgElement.src = "images/xavier_sg.png"
                 imgElement.style.display = "block";
             }
 
 
             //yuenlong hk
-            if (input1_letter === "Y") {
+            if (input1_letter === "Y" && input2_letter === "Y") {
                 imgElement.src = "images/yuenlong_hk.png"
                 imgElement.style.display = "block";
             }
 
 
             //zetland hk
-            if (input1_letter === "Z") {
+            if (input1_letter === "Z" && input2_letter !== "G") {
                 imgElement.src = "images/zetland_hk.png"
                 imgElement.style.display = "block";
             }
