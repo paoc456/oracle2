@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where will you go?</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         body {
             padding: 40px 0;
         }
 
         p {
-            text-align: center;
+            font-family: "Press Start 2P";
+            font-size: 0.75rem;
+            line-height: 1.5rem;
             margin: 0 0 30px 0;
+        }
+
+        .instructions {}
+
+        .instructions_title {
+            font-family: "Press Start 2P";
+            color: white
+        }
+
+        .instructions_text {
+            font-family: "Press Start 2P";
+            font-size: 0.75rem;
+            color: white
         }
 
         /* STYLE FOR THE IMAGE */
@@ -81,10 +99,19 @@
 
 <body>
 
+    <div class="instructions">
+        <h1 class="instructions_title">
+            Welcome to MapMatch.
+        </h1>
+        <p class="instructions_text">
+            Explore the hidden connections between distant cities.
+            Look closely at the surroundings, signs, vehicles, and architecture to determine where you are.
+        </p>
+    </div>
 
     <p>
-        Insert letters from A-Z. <br />
-        Which British colony will you get?
+        Select any letter pairing from A-Z to generate a random Google Street View from streets starting with those
+        letters in former British colonies.
     </p>
 
     <img id="displayedImage" src="">
