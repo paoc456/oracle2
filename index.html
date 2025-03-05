@@ -74,13 +74,14 @@
             height: 500px;
             width: auto;
             opacity: 1;
-            max-width: auto;
+            max-width: 100%;
             transition: opacity 0.2s ease-in-out, transform 0.3s ease;
             cursor: move;
             position: relative;
             z-index: 1;
             transform-origin: center;
             pointer-events: auto;
+            object-fit: contain;
         }
 
         #displayedImage:hover {
@@ -107,6 +108,7 @@
             overflow: visible;
             display: flex;
             justify-content: center;
+            align-items: center;
         }
 
         .input-container {
